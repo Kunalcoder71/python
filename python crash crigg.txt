@@ -1,0 +1,76 @@
+old_age=int(input("enter your old age:"))
+new_age=old_age+2
+print(new_age)
+number=18
+print(float())
+first=input("enter your first number:")
+second=input("enter your second number:")
+sum=int(first)+int(second)
+print("total value:" + str(sum))
+name="Tony Stark"
+print(name.find(""))
+print(name.replace("Tony ","hrithik roshan"))
+name="Kunal Kumar Rajak"
+print("Rajak" in name)
+print(5%25)
+result=2+3*5
+print(result)
+age=int(input("enter your correct age:"))
+name=input("enter your name:")
+if age>=18:
+    print("you are an adult")
+    print("you can vote")
+elif age<18 and  age>3:
+    print("you are in school student")
+else:
+    print("ydou are a child")
+    print("Thank You")
+numbers=range(5)
+print(numbers)
+i=5
+while i>=0:
+    print(i * "*")
+    i=i-1
+for item in range(5):
+    print(item*2)
+Marks=[65,99,84,25]
+print(len(Marks))
+i=0
+Marks=[25,65,98,58]
+while i<len(Marks):
+    print(Marks[i])
+    i=i+1
+Marks.clear()
+print(Marks)
+students=["kabir","kunal","radhika","ram","santosh"]
+# for students in students:
+num=int(input("enter your number:"))
+if num%2==0:
+    print("even")
+elif num%2!=0:
+    print("odd")
+else:
+    print("invalid input")
+num=[50,65,3,30,97,21,54]
+k=3
+print(num)
+''' Python3 code for k largest elements in an array'''
+
+
+def kLargest(arr, k):
+	# Sort the given array arr in reverse
+	# order.
+ 	arr.sort(reverse=True)
+# 	# Print the first kth largest elements
+	for i in range(k):
+		print(arr[i], end=" ")
+
+
+Driver code
+arr = [1, 23, 12, 9, 30, 2, 50]
+# n = len(arr)
+k = 3
+kLargest(arr, k)
+
+This code is contributed by shreyanshi_arun.
+print('kavir_das')
